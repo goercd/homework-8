@@ -1,0 +1,15 @@
+﻿{
+"studentName": "Иван Иванов",
+"shopperEmail": "ivanov@mail.ru",
+"contents": [
+{
+"subject": frotnend,
+"value": 5
+},
+{
+"subject": english,
+"value": 3
+}
+],
+"studingCompleted": true
+}
