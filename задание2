@@ -1,0 +1,19 @@
+//не получилось(
+
+function getData() {
+return new Promise(resolve => {
+setTimeout(() => resolve(42), 1000)
+})
+}
+
+Promise.reject(new Error("провал")).then(function(success) {
+}, function(error) {
+console.log(error);
+throw error; 
+});
+
+function getData(name) {
+var value = "вывожу, " + name;
+alert( value );
+}
+setTimeout(name, 1000);
